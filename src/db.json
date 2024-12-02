@@ -1,0 +1,189 @@
+{
+    "Navbar_header":[
+      {
+        "id":1,
+        "part_navbar":[
+            {
+                "id":1,
+                "name":"دسته بندی",
+                "icon":"part"
+            }
+        ]
+      },
+      {
+        "id":2,
+        "name":"خرید قسطی",
+        "icon":"Installment"
+      },
+      {
+        "id":3,
+        "name":"مجله دیجی لند",
+        "icon":"magazine"
+      },
+      {
+        "id":4,
+        "name":"پیشنهاد طلایی",
+        "icon":"goldsujest"
+      },
+      {
+        "id":5,
+        "name":"شعب دیجی لند",
+        "icon":"location"
+
+      },
+      {
+        "id":6,
+        "name":"نمایندگی دیجی لند بگیرید",
+        "icon":"company"
+      }
+    ],
+    "Categories":[
+        {
+            "id": 1,
+            "name": "گوشی موبایل",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-6d8e75bc-4898-4b9a-ad2d-6e31de17be77.jpg&w=1536&q=75",
+            "slug": "mobile",
+            "products": [
+              { "id": 1, "name": "گوشی آیفون 13", "price": "50,000,000 تومان" },
+              { "id": 2, "name": "گوشی سامسونگ S21", "price": "40,000,000 تومان" }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "لپ‌تاپ",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-725ceeaa-0fae-4e6f-a98e-1aaf09962ddf.jpg&w=1536&q=75",
+            "slug": "laptop",
+            "products": [
+              { "id": 1, "name": "لپ‌تاپ مک‌بوک پرو", "price": "80,000,000 تومان" },
+              { "id": 2, "name": "لپ‌تاپ ایسوس راگ", "price": "70,000,000 تومان" }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "هدفون و هندزفیری",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-75530311-7429-4905-a5d6-c200b971f564.jpg&w=1536&q=75",
+            "slug": "handzfiri",
+            "products": [
+              { "id": 1, "name": "لپ‌تاپ مک‌بوک پرو", "price": "80,000,000 تومان" },
+              { "id": 2, "name": "لپ‌تاپ ایسوس راگ", "price": "70,000,000 تومان" }
+            ]
+          },
+          {
+            "id": 4,
+            "name": " اسپیکر و بلندگو ",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-cc84b6df-6866-4a2d-82d6-985456446157.jpg&w=1536&q=75",
+            "slug": "espiker",
+            "products": [
+              { "id": 1, "name": "لپ‌تاپ مک‌بوک پرو", "price": "80,000,000 تومان" },
+              { "id": 2, "name": "لپ‌تاپ ایسوس راگ", "price": "70,000,000 تومان" }
+            ]
+          },
+          {
+            "id": 5,
+            "name": " تجهیزات ذخیره سازی ",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-60508be5-b647-4bf4-8bc7-ffb58c0a6221.jpg&w=1536&q=75",
+            "slug": "Equipment",
+            "products": [
+              { "id": 1, "name": "لپ‌تاپ مک‌بوک پرو", "price": "80,000,000 تومان" },
+              { "id": 2, "name": "لپ‌تاپ ایسوس راگ", "price": "70,000,000 تومان" }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "  شارژ و پاور بانک ",
+            "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-b490f896-2c74-42f3-977b-78685c19ef00.jpg&w=1536&q=75",
+            "slug": "Charger",
+            "products": [
+              { 
+               "id": 1,
+               "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-b6df2c40-147a-47d7-b715-cc3ced32f31a.gif&w=1536&q=75",
+               "name": "شارژر همراه ریمکس مدل Dynasty RPP-567 ظرفیت 168000 میلی‌ آمپر ساعت",
+               "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+               "discount":"۱۱٪",
+               "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+              },
+              { 
+                "id": 2,
+                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-b6df2c40-147a-47d7-b715-cc3ced32f31a.gif&w=1536&q=75",
+                "name": "شارژر همراه ریمکس مدل Dynasty RPP-567 ظرفیت 168000 میلی‌ آمپر ساعت",
+                "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+                "discount":"۱۱٪",
+                "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+               }
+            ]
+          }
+    ],
+    "Baner":[
+        {
+            "id":1,
+            "BanerPart_one":[
+                {
+                    "id":1,
+                    "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-f1fa342a-8a80-4f70-a13d-7e06ea768aad.jpg&w=1536&q=100"
+                },
+                {
+                    "id":2,
+                    "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-f3046ee7-3eac-48f2-a65a-0f7d73b395a9.jpg&w=1536&q=100"
+                }
+            ]
+        }
+    ],
+    "Products":[
+      {
+        "id":1,
+        "DiscountProduct":[
+          {
+            "id":1,
+            "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-01d6a9d4-39fc-4489-9622-303c5071872a.jpeg&w=256&q=75",
+            "title":"گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
+            "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+            "discount":"۱۱٪",
+            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+
+          },
+          {
+            "id":2,
+            "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-0c9606b8-4d53-4ed8-a6fa-5508da7137b2.jpg&w=256&q=75",
+            "title":"گوشی موبایل نوکیا مدل (2023) 150  دو سیم کارت 2G  - مونتاژ ایران",
+            "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+            "discount":"۱۱٪",
+            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+
+          },
+          {
+            "id":3,
+            "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-597c5172-2274-4424-b8b5-e5693d6f2699.jpg&w=256&q=75",
+            "title":"لپ تاپ ایسوس Vivobook X1504VA i3-1315U 8GB 512GB SSD",
+            "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+            "discount":"۱۱٪",
+            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+
+          },
+          {
+            "id":4,
+            "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-224a1060-cdcd-4c85-8041-1ec3dac34aa1.jpg&w=256&q=75",
+            "title":"تبلت سامسونگ مدل Galaxy Tab S9 Ultra (X916B) حافظه 256 گیگابایت و رم 12 گیگابایت",
+            "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
+            "discount":"۱۱٪",
+            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+
+          },
+          {
+            "id":5,
+            "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-224a1060-cdcd-4c85-8041-1ec3dac34aa1.jpg&w=256&q=75",
+            "title":"تبلت سامسونگ مدل Galaxy Tab S9 Ultra (X916B) حافظه 256 گیگابایت و رم 12 گیگابایت",
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
+            "discount":"۱۱٪",
+            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+
+          }
+
+
+
+        ]
+      }
+
+
+    ]
+    
+}
