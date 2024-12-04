@@ -29,7 +29,7 @@ const Slider = () => {
           modules={[Navigation]}
           slidesPerView={1}
           spaceBetween={20}
-          className="mt-[20px]"
+          className="mt-[5px]"
         >
           {slider.map((elem) => (
             <SwiperSlide key={elem.id} className="p-1">

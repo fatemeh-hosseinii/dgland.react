@@ -17,12 +17,12 @@ const NavbarIteme = ({ navbar }) => {
   };
 
   return (
-    <div className="flex flex-row justify-around bg-slate-800 w-[100%] p-3">
+    <div className="flex flex-row justify-around  w-[100%] p-3">
       {navbar?.map((elem) => {
         if (elem.part_navbar) {
     
           return elem.part_navbar.map((item) => (
-            <div key={item.id} className="bg-[red] flex flex-row items-center p-3 gap-3">
+            <div key={item.id} className=" flex flex-row items-center p-3 gap-3">
               {iconMapping[item.icon] && 
                 <span className="w-8 flex justify-center">{iconMapping[item.icon]}</span>}
               <p className="text-[#cecece]">{item.name}</p>
@@ -32,7 +32,7 @@ const NavbarIteme = ({ navbar }) => {
 
         const SelectedIcon = elem.icon ? iconMapping[elem.icon] : null;
         return (
-          <div key={elem.id} className="bg-[red] flex flex-row items-center p-2">
+          <div key={elem.id} className=" flex flex-row items-center p-2">
             {SelectedIcon && <span className="w-8 flex justify-center">{SelectedIcon}</span>}
             <p className="text-[#cecece]">{elem.name}</p>
           </div>

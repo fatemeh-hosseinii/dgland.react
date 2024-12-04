@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import {barChart} from 'react-icons-kit/fa/barChart'
@@ -13,6 +13,8 @@ const ShowCategory = () => {
         const res = await axios.get("http://localhost:3004/Categories");
         const foundCategory = res.data.find((cat) => cat.slug === slug);
         setCategory(foundCategory);
+      
+        
       } catch (error) {
         console.error("Error fetching category data:", error.message);
       }
@@ -29,7 +31,7 @@ const ShowCategory = () => {
     <div className="category-details flex flex-col bg-zinc-900 p-3">
       <h2 className="text-lg font-bold">{category.name}</h2>
         <div className="flex flex-row gap-6 mt-5 bg-rose-800 w-[100%]">
-            <div className="filter w-[25%] border-[1px] border-[#DDDDDD] gap-3 p-3 rounded-lg flex flex-col ">
+            <div className="filter w-[25%] h-[53vh] border-[1px] border-[#DDDDDD] gap-3 p-3 rounded-lg flex flex-col ">
                 <h2 className="text-[14px]"> فیلترها</h2>
                 <div className="flex flex-row gap-2">
                     <input type="checkbox"  name="" id="" />
@@ -53,17 +55,41 @@ const ShowCategory = () => {
                     <p className="text-[14px]">940 کالا</p>
                 </div>
                 <div className="bg-[pink] mt-3">
-                    <div className="products">
-                        {category.products.map((product) => (
-                        <li key={product.id} className="product mb-4 p-4 border rounded">
-                            <h3 className="text-md font-semibold">{product.name}</h3>
-                            <p className="text-sm text-gray-600">{product.price}</p>
-                        </li>
-                        ))}
-                    <div>
-                        
-                    </div>    
-                    </>
+                    
+                  <div className="products flex flex-wrap bg-black p-4 gap-2  justify-around">
+                      {category.products.map((product) => (
+                          <Link
+                          key={product.id}
+                          className="product mb-4 p-2 rounded bg-white w-[24%] flex flex-col gap-4 text-center shadow"
+                          >
+                          <div className="flex flex-row justify-center">
+                            <img className="w-[75%]" src={product.image} alt="" />  
+                            
+                          </div>  
+                          <p className="line-clamp-2 text-[13px] mt-3">{product.name}</p>
+                          <div className=" mt-6 flex flex-row justify-between items-end w-[100%] ">
+                            <div className="bg-[red] rounded-2xl px-2 py-1">
+                              <small className="text-[white]">{product.discount}</small>
+                                          
+                            </div>
+                            <div className="flex flex-col text-end">
+                              <div >
+                                  <small className="line-through text-[#B5B5B5]">{product.first_price}</small>
+                              </div>
+                
+                
+                              <small className="text-[17px]  text-[red] font-bold">{product.second_price}</small>
+                            </div>
+          
+                          </div>  
+
+
+                          
+                          
+                        </Link>
+                      ))}
+                  </div>
+ 
                 </div>
             </div>
         </div>

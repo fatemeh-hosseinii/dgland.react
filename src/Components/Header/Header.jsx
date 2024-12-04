@@ -5,13 +5,19 @@ import {search} from 'react-icons-kit/fa/search'
 import Icon from "react-icons-kit";
 import {ic_login} from 'react-icons-kit/md/ic_login'
 import {ic_add_shopping_cart} from 'react-icons-kit/md/ic_add_shopping_cart'
+import { Link } from "react-router-dom";
 const Header = () => {
     return ( <>
-        <div className="bg-black flex flex-col">
+        <div className=" flex flex-col">
+            
             <img src={Header_imge} alt="" />
-            <div className="flex flex-row bg-red-800 justify-between mt-2 p-4 w-[100%]">
+            <div className="flex flex-row  justify-between mt-2 p-4 w-[100%]">
                 <div className="flex flex-row justify-around right lg:w-[65%] w-[90%]  p-2">
-                    <img src={dgland_main_logo} alt="" />
+                    <Link to={'/'}>
+                     <img src={dgland_main_logo} alt="" />
+                    
+                    
+                    </Link>
                     <div class="bg-[#F6F5F5] lg:w-[75%] w-[100%] p-1 rounded-full  shadow flex  gap-3" >
                         <div class=" lg:w-[52px] lg:h-[32px] w-[40px] bg-white flex flex-row justify-center items-center rounded-full mt-1 p-2">
                             <Icon className="text-[red]" icon={search} size={25}/>
@@ -23,16 +29,16 @@ const Header = () => {
                         </div>
                     </div>   
                 </div>
-                <div class="left lg:w-[35%] w-[30%] bg-gray-500 lg:flex hidden flex-row lg:justify-end  gap-3 items-center">
+                <div class="left lg:w-[35%] w-[30%]  lg:flex hidden flex-row lg:justify-end  gap-3 items-center">
                     <div class="flex flex-row lg:w-[53%] w-[100%] justify-around ">
-                        <button class="bg-[blue] border-2 border-solid border-[#f0f0f0] py-1 w-[55%] rounded-md flex justify-between items-center gap-2">
+                        <button class=" border-2 border-solid border-[#f0f0f0] py-1 w-[55%] rounded-md flex justify-between items-center gap-2">
                             <div class="bg-white flex mt-1">
                             <Icon icon={ic_login} size={"25px"} className="text-[red]"/>
-                            <span class="text-[13px] font-bold text-[red]">ورود</span>
+                            <span class="text-[13px] font-bold text-[red] mt-1">ورود</span>
                             </div>  
                                         
                             <div class="w-[1%] h-[17px] bg-[red]"></div>
-                            <div class="w-[43%]">
+                            <div class="w-[43%] mt-1">
                             <span class="text-[13px] font-bold text-[red] text-bold">ثبت نام</span>
                             </div>
                         </button>
@@ -47,7 +53,7 @@ const Header = () => {
                 </div>
                 
             </div>
-            <div className="flex flex-row justify-between bg-[yellow]">
+            <div className="flex flex-row justify-between ">
                 <Navbar/>
             </div>
             
