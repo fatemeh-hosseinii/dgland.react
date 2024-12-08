@@ -37,8 +37,7 @@ const ProductDiscount = () => {
           modules={[Navigation]}
           slidesPerView={5}
           spaceBetween={20}
-          className="mt-[20px] bg-[blue]"
-        >
+          className="mt-[20px] bg-[blue]">
           {discountProducts.map((product) => (
             <SwiperSlide key={product.id} className="p-1 bg-slate-600">
               <DetailsDiscount Discount={product} />

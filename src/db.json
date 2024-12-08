@@ -206,6 +206,40 @@
                     "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-f3046ee7-3eac-48f2-a65a-0f7d73b395a9.jpg&w=1536&q=100"
                 }
             ]
+        },
+        {
+          "id":2,
+          "BanerPart_two":[
+            {
+              "id":1,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-557a4ddc-93fb-45b2-8a16-c58cbb2370c4.jpg&w=1536&q=75"
+            },
+            {
+              "id":2,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-19c75754-38e3-4fc9-8d69-f993fb0dd7eb.jpg&w=1536&q=75"
+            },
+            {
+              "id":3,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-68f60392-f9b4-4193-aadd-dbaeb23a13c6.jpg&w=1536&q=75"
+            }
+          ]
+        },
+        {
+          "id":3,
+          "BanerPart_three":[
+            {
+              "id":1,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-a514451d-9be0-49c0-b4fc-bb50f9a03555.jpg&w=1536&q=75"
+            },
+            {
+              "id":2,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-843353ca-555d-499b-8700-20086e057c91.jpg&w=1536&q=75"
+            },
+            {
+              "id":3,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-70ed8c94-58d1-4c70-a2a3-a90c7333b550.jpg&w=1536&q=75"
+            }
+          ]
         }
     ],
     "Products":[
@@ -219,7 +253,8 @@
             "title": "گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
             "first_price": "۹٬۰۰۰٬۰۰۰ تومان",
             "discount": "۱۱٪",
-            "second_price": "۷٬۹۹۹٬۰۰۰ تومان"
+            "second_price": "۷٬۹۹۹٬۰۰۰ تومان",
+            "brand":"اپل"
           },
           {
             "id":2,
@@ -278,53 +313,47 @@
             "id": 1,
             "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-bcfdb238-e77d-40ac-af7c-84f62825fd78.jpg&w=256&q=75",
             "title": "گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A",
-            "first_price": "۹٬۰۰۰٬۰۰۰ تومان",
-            "discount": "۱۱٪",
-            "second_price": "۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price": "۹٬۰۰۰٬۰۰۰ تومان"
+          
           },
           {
-            "id":1,
+            "id":2,
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-bcfdb238-e77d-40ac-af7c-84f62825fd78.jpg&w=256&q=75",
             "title":"گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A",
-            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "discount":"۱۱٪",
-            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان"
+          
 
           },
           {
             "id":2,
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-a64244b0-eca5-4ec0-910c-7b0a3c789659.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت - ویتنام",
-            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "discount":"۱۱٪",
-            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان"
+           
 
           },
           {
             "id":3,
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-2afda09b-d758-4b1a-a0bf-73860ed0f066.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
-            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "discount":"۱۱٪",
-            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان"
+           
 
           },
           {
             "id":4,
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-01d6a9d4-39fc-4489-9622-303c5071872a.jpeg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
-            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "discount":"۱۱٪",
-            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان"
+          
 
           },
           {
             "id":5,
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-d2e18a6c-3935-4fc6-8a95-e5e5f9ed2a23.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy S24 FE 5G دوسیم کارت  ظرفیت 256 گیگابایت رم 8 گیگابایت-ویتنام",
-            "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "discount":"۱۱٪",
-            "second_price":"۷٬۹۹۹٬۰۰۰ تومان"
+            "first_price":"۹٬۰۰۰٬۰۰۰تومان"
+           
 
           }
           

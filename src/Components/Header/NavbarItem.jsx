@@ -24,8 +24,8 @@ const NavbarIteme = ({ navbar }) => {
           return elem.part_navbar.map((item) => (
             <div key={item.id} className=" flex flex-row items-center p-3 gap-3">
               {iconMapping[item.icon] && 
-                <span className="w-8 flex justify-center">{iconMapping[item.icon]}</span>}
-              <p className="text-[#cecece]">{item.name}</p>
+                <span className="w-8 flex justify-center text-[#6B6B6B]">{iconMapping[item.icon]}</span>}
+              <p className="text-[#6B6B6B]">{item.name}</p>
             </div>
           ));
         }
@@ -33,8 +33,8 @@ const NavbarIteme = ({ navbar }) => {
         const SelectedIcon = elem.icon ? iconMapping[elem.icon] : null;
         return (
           <div key={elem.id} className=" flex flex-row items-center p-2">
-            {SelectedIcon && <span className="w-8 flex justify-center">{SelectedIcon}</span>}
-            <p className="text-[#cecece]">{elem.name}</p>
+            {SelectedIcon && <span className="w-8 flex justify-center text-[#6B6B6B]">{SelectedIcon}</span>}
+            <p className="text-[#6B6B6B]">{elem.name}</p>
           </div>
         );
       })}
