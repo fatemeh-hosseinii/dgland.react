@@ -1,4 +1,5 @@
 import Slider from "../../../Components/Slider/Slider";
+import BanerFoure from "../Baner/BanerFoure";
 import BanerOne from "../Baner/BanerOne";
 import BanerThree from "../Baner/BanerThree";
 import BanerTwo from "../Baner/BanerTwo";
@@ -16,6 +17,7 @@ const HeroSection = () => {
     <BanerTwo/>
     <PopularPhone/>
     <BanerThree/>
+    <BanerFoure/>
  
     </> );
 }

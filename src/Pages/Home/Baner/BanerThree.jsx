@@ -19,7 +19,7 @@ const BanerThree = () => {
         featchpost()
     },[])
     return ( <>
-     <div className="bg-slate-600  flex flex-col  w-[100%] mt-3">
+     <div className=" flex flex-col  w-[100%] mt-3">
             <div className=" flex flex-col justify-center items-center w-[100%] gap-2  mt-2">
                 <h2 className="text-[21px]">گوشی موبایل</h2>
                 <div className="w-[4%] h-[3px] bg-[red] "></div>
@@ -28,7 +28,7 @@ const BanerThree = () => {
             modules={[Navigation]}
             slidesPerView={3}
             spaceBetween={20}
-            className="mt-[20px] bg-[blue] container">
+            className="mt-[20px]  container">
             {BanerThree?.map((item) => (
                 item?.BanerPart_three?.map((elem)=>{
                     return (

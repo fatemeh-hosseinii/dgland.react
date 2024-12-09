@@ -20,7 +20,7 @@ const BanerOne = () => {
   return (
     <>
     {BanerOne?.map((elem) => (
-        <div key={elem.id} className="bg-[red] flex flex-row justify-around mt-4">
+        <div key={elem.id} className="flex flex-row justify-around mt-6">
             {elem?.BanerPart_one?.map((item) => (
            
                 <img

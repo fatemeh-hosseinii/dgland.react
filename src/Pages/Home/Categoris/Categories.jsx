@@ -20,7 +20,7 @@ const Categories = () => {
         featchpost()
     },[])
     return ( <>
-    <div className="flex flex-col justify-around bg-[red] items-center">
+    <div className="flex flex-col justify-around   items-center">
         <h2 className="text-[22px]">دسته‌بندی‌های پر‌بازدید</h2>
        <div className="flex flex-row w-[95%] justify-around">
        <Swiper
