@@ -30,7 +30,7 @@ const ShowCategory = () => {
   return (
     <div className="category-details flex flex-col bg-zinc-900 p-3">
       <h2 className="text-lg font-bold">{category.name}</h2>
-        <div className="flex flex-row gap-6 mt-5 bg-rose-800 w-[100%]">
+        <div className="flex flex-row mt-5 bg-rose-800 w-[100%]">
             <div className="filter w-[25%] h-[53vh] border-[1px] border-[#DDDDDD] gap-3 p-3 rounded-lg flex flex-col ">
                 <h2 className="text-[14px]"> فیلترها</h2>
                 <div className="flex flex-row gap-2">
@@ -39,8 +39,8 @@ const ShowCategory = () => {
                 </div>
                 
             </div>
-            <div className="bg-[yellow] w-[100%] flex flex-col">
-                <div className="bg-[red] flex flex-row justify-between">
+            <div className="bg-[pink] w-[70%] flex flex-col">
+                <div className="bg-[red] lg:flex lg:flex-row hidden w-[100%] justify-between">
                     <div className="flex flex-row gap-3">
                         <Icon className="text-[#888888]" icon={barChart} size={22}/>
                         <p className="text-[14px] text-[#2F2F2F]">مرتب سازی بر اساس :</p>

@@ -5,7 +5,8 @@ import { Navigation } from "swiper/modules";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import DetailsDiscount from "./DetailsDiscount";
-
+import { percent } from "react-icons-kit/fa/percent";
+import Icon from "react-icons-kit";
 const ProductDiscount = () => {
   const [discountProducts, setDiscountProducts] = useState([]);
 
@@ -28,18 +29,25 @@ const ProductDiscount = () => {
   }, []);
 
   return (
-    <div className="bg-[#de2040] mt-3 w-full">
-      <div className="w-full bg-red-600">
-        <h2 className="text-center text-[25px]">تخفیف تایم</h2>
+    <div className="bg-[#de2040] mt-3 w-full p-2">
+      <div className="w-full flex flex-row justify-center gap-3">
+        <h2 className="text-center text-[25px] text-[white]">تخفیف تایم</h2>
+        <Icon className="mt-1 text-[white]" icon={percent} size={25} />
       </div>
-      <div className="bg-slate-800 p-2 w-full container">
+      <div className="p-2 w-full xl:container">
         <Swiper
           modules={[Navigation]}
-          slidesPerView={5}
+          breakpoints={{
+            1200: { slidesPerView: 5},
+            1100: { slidesPerView:4},
+            870: { slidesPerView: 4.5 },
+            480:{slidesPerView:2.5},
+            380: { slidesPerView: 2 },
+          }}
           spaceBetween={20}
-          className="mt-[20px] bg-[blue]">
+          className="mt-[20px] ">
           {discountProducts.map((product) => (
-            <SwiperSlide key={product.id} className="p-1 bg-slate-600">
+            <SwiperSlide key={product.id} className="p-1">
               <DetailsDiscount Discount={product} />
             </SwiperSlide>
           ))}

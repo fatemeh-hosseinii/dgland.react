@@ -20,12 +20,17 @@ const Categories = () => {
         featchpost()
     },[])
     return ( <>
-    <div className="flex flex-col justify-around   items-center">
-        <h2 className="text-[22px]">دسته‌بندی‌های پر‌بازدید</h2>
+    <div className="flex flex-col justify-around items-center">
+        <h2 className="lg:text-[22px] text-[20px]">دسته‌بندی‌های پر‌بازدید</h2>
        <div className="flex flex-row w-[95%] justify-around">
        <Swiper
           modules={[Navigation]}
-          slidesPerView={6}
+          breakpoints={{
+            1200: { slidesPerView: 6},
+            1100: { slidesPerView:4},
+            870: { slidesPerView: 4.5 },
+            380: { slidesPerView: 3 },
+          }}
           spaceBetween={20}
           className="mt-[20px]"
         >

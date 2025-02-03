@@ -8,7 +8,7 @@ const DetailsDiscount = ({ Discount }) => {
         >
             <img className="w-[70%]" src={Discount.image} alt={Discount.title} />
             <p className="line-clamp-2 text-[13px] mt-3">{Discount.title}</p>
-            <div className="bg-slate-900 mt-6 flex flex-row justify-between items-end w-[100%]">
+            <div className=" mt-6 flex flex-row justify-between items-end w-[100%]">
                 <div className="bg-[red] rounded-2xl px-2 py-1">
                     <small className="text-[white]">{Discount.discount}</small>
                 </div>

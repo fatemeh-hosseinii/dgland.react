@@ -4,12 +4,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import axios from "axios";
-const BanerThree = () => {
-    const[BanerThree,SetBanerThree]=useState(null)
+const BanerFive = () => {
+    const[BanerFive,SetBanerFive]=useState(null)
     const featchpost =async()=>{
         try{
             const res = await axios.get("http://localhost:3004/Baner");
-            SetBanerThree(res.data);
+            SetBanerFive(res.data);
         }catch(error){
             console.log(error);
             
@@ -19,9 +19,9 @@ const BanerThree = () => {
         featchpost()
     },[])
     return ( <>
-        <div className=" flex flex-col  w-[100%] mt-3">
+        <div className=" flex flex-col  w-[100%] mt-5">
             <div className=" flex flex-col justify-center items-center w-[100%] gap-2  mt-2">
-                <h2 className="text-[21px]">گوشی موبایل</h2>
+                <h2 className="text-[21px]"> کامپیوتر و لپ‌تاپ</h2>
                 <div className="w-[4%] h-[3px] bg-[red] "></div>
             </div>
             <Swiper
@@ -29,8 +29,8 @@ const BanerThree = () => {
             slidesPerView={3}
             spaceBetween={20}
             className="mt-[20px]  container">
-            {BanerThree?.map((item) => (
-                item?.BanerPart_three?.map((elem)=>{
+            {BanerFive?.map((item) => (
+                item?.BanerPart_five?.map((elem)=>{
                     return (
                         <SwiperSlide key={elem.id} className="p-1 rounded-md bg-[white]">
                     
@@ -43,8 +43,8 @@ const BanerThree = () => {
             </Swiper>
 
         </div>
-        
-    </>  );
+    
+    </> );
 }
  
-export default BanerThree;
+export default BanerFive;

@@ -7,6 +7,7 @@ import { book_2 } from "react-icons-kit/ikons/book_2";
 import { percent } from "react-icons-kit/fa/percent";
 import { location } from "react-icons-kit/oct/location";
 import Icon from "react-icons-kit";
+import dgland_main_logo from "../../assets/Media/dgland_main_logo.png"
 
 const NavbarIteme = ({ navbar }) => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -29,9 +30,7 @@ const NavbarIteme = ({ navbar }) => {
 
 
       <div
-        className={`lg:flex hidden lg:flex-row lg:space-x-4 justify-around w-full p-3 ${
-          menuOpen ? "block" : "hidden"
-        }`}
+        className={`lg:flex hidden lg:flex-row lg:space-x-4 justify-around w-full p-3 ${menuOpen ? "block" : "hidden"}`}
       >
         {navbar?.map((elem) => {
           if (elem.part_navbar) {
@@ -49,7 +48,7 @@ const NavbarIteme = ({ navbar }) => {
 
           const SelectedIcon = elem.icon ? iconMapping[elem.icon] : null;
           return (
-            <div key={elem.id} className="flex flex-row items-center p-2">
+            <div key={elem.id} className="flex flex-row items-center xl:p-2">
               {SelectedIcon && (
                 <span className="w-8 flex justify-center text-[#6B6B6B]">
                   {SelectedIcon}
@@ -61,19 +60,19 @@ const NavbarIteme = ({ navbar }) => {
         })}
       </div>   
       {/* هدر */}
-      <div className="container flex lg:hidden justify-between items-center w-full bg-slate-900 p-3 lg:mt-0 mt-5">
+      <div className="container  flex lg:hidden justify-between items-center  w-full px-3 lg:mt-0 mt-4">
 
       
         
         <div className="relative lg:hidden">
           <button
             onClick={toggleMenu}
-            className="text-gray-400 focus:outline-none"
+            className="text-[red] focus:outline-none "
             aria-expanded={menuOpen}
             aria-label="Toggle navigation"
           >
             {!menuOpen ? (
-              <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M3 5h14M3 10h14M3 15h14" stroke="currentColor" strokeWidth="2" />
               </svg>
             ) : (
@@ -90,26 +89,14 @@ const NavbarIteme = ({ navbar }) => {
       
       {/* منوی موبایل */}
       <div
-        className={`fixed inset-y-0 left-0 w-3/4 bg-white shadow-lg z-50 transform ${
-          menuOpen ? "translate-x-0" : "-translate-x-full"
+        className={`fixed inset-y-0  right-0 w-[50%] bg-[blue] shadow-lg z-50 transform ${
+          menuOpen ? "translate-x-0" : "translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >
-        <button
-          onClick={toggleMenu}
-          className="absolute top-4 right-4 text-gray-500 focus:outline-none"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-              clipRule="evenodd"
-            ></path>
-          </svg>
-        </button>
+        <div className="top-3 left-3 bg-slate-800 p-3">
+          <img src={dgland_main_logo} alt="" />
+          
+        </div>
         <ul className="p-6 space-y-4">
           {navbar?.map((elem) => {
             if (elem.part_navbar) {

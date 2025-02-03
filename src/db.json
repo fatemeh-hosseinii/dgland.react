@@ -104,7 +104,7 @@
               },
               { 
                 "id": 2,
-                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-b6df2c40-147a-47d7-b715-cc3ced32f31a.gif&w=1536&q=75",
+                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-77fd6c80-7b5c-4a8f-a844-d4eb8fb3f65a.jpg&w=1536&q=75",
                 "name": "شارژر همراه ریمکس مدل Dynasty RPP-567 ظرفیت 168000 میلی‌ آمپر ساعت",
                 "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
                 "discount":"۱۱٪",
@@ -112,7 +112,7 @@
                },
                { 
                 "id": 3,
-                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-b6df2c40-147a-47d7-b715-cc3ced32f31a.gif&w=1536&q=75",
+                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-b7d9c051-724f-4359-bab7-a20dd552480a.jpg&w=1536&q=75",
                 "name": "شارژر همراه ریمکس مدل Dynasty RPP-567 ظرفیت 168000 میلی‌ آمپر ساعت",
                 "first_price":"۹٬۰۰۰٬۰۰۰ تومان",
                 "discount":"۱۱٪",
@@ -205,7 +205,21 @@
                     "id":2,
                     "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-f3046ee7-3eac-48f2-a65a-0f7d73b395a9.jpg&w=1536&q=100"
                 }
+            ],
+            "BanerPart_one_res":[
+              {
+                "id":1,
+                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FMOBILESECTIONBANNER%2FMOBILESECTIONBANNER-cf70c474-238f-4064-a979-765d312738d7.jpg&w=1536&q=75"
+              },
+              {
+                "id":2,
+                "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FMOBILESECTIONBANNER%2FMOBILESECTIONBANNER-a412d0bd-fe1b-45ff-8c9c-eacdf9867925.jpg&w=1536&q=75"
+
+              }
             ]
+        },
+        {
+          
         },
         {
           "id":2,
@@ -247,6 +261,23 @@
             {
               "id":1,
               "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-87f1f568-d2c9-4826-a8a5-32f0331695d2.png&w=1536&q=100"
+            }
+          ]
+        },
+        {
+          "id":5,
+          "BanerPart_five":[
+            {
+              "id":1,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-428d4faa-c8c3-4ab0-a059-2a6d05bc028d.jpg&w=1536&q=75"
+            },
+            {
+              "id":2,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-d14bd62c-cec1-47f8-bc20-d54f40e303ad.jpg&w=1536&q=75"
+            },
+            {
+              "id":3,
+              "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2FFile%2FDESKTOPSECTIONBANNER%2FDESKTOPSECTIONBANNER-7cc1eca8-282c-4792-af43-80dc175f76e5.jpg&w=1536&q=75"
             }
           ]
         }
@@ -501,8 +532,34 @@
             "image": "https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-bcfdb238-e77d-40ac-af7c-84f62825fd78.jpg&w=256&q=75",
             "title": "گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A",
             "first_price": "۹٬۰۰۰٬۰۰۰ تومان",
-            "brand":"اپل"
-
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
           
           },
           {
@@ -510,7 +567,34 @@
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-bcfdb238-e77d-40ac-af7c-84f62825fd78.jpg&w=256&q=75",
             "title":"گوشی موبایل اپل مدل iPhone 13 Not Active 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 4 گیگابایت CH-A",
             "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "brand":"اپل"
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
 
           
 
@@ -520,7 +604,34 @@
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-a64244b0-eca5-4ec0-910c-7b0a3c789659.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A25 5G دو سیم کارت ظرفیت 128 گیگابایت و رم 6 گیگابایت - ویتنام",
             "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "brand":"اپل"
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
 
            
 
@@ -530,7 +641,34 @@
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-2afda09b-d758-4b1a-a0bf-73860ed0f066.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
             "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "brand":"اپل"
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
 
            
 
@@ -540,7 +678,34 @@
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-01d6a9d4-39fc-4489-9622-303c5071872a.jpeg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy A05s 4G دو سیم کارت  ظرفیت 128 گیگابایت و رم 4 گیگابایت",
             "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "brand":"اپل"
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
 
           
 
@@ -550,7 +715,34 @@
             "image":"https://dgland.com/_next/image?url=https%3A%2F%2Fstorage.dgland.dev%2Fapi%2Ffile%2FPrdImages%2FPrdImages-d2e18a6c-3935-4fc6-8a95-e5e5f9ed2a23.jpg&w=256&q=75",
             "title":"گوشی موبایل سامسونگ مدل Galaxy S24 FE 5G دوسیم کارت  ظرفیت 256 گیگابایت رم 8 گیگابایت-ویتنام",
             "first_price":"۹٬۰۰۰٬۰۰۰تومان",
-            "brand":"اپل"
+            "brand":"اپل",
+            "feature":[
+              {
+                "id":1,
+                "title":"تعداد سیم کارت",
+                "description":"دو سیم کارت"
+              },
+              {
+                "id":2,
+                "title":"فناوری صفحه نمایش",
+                "description":"OLED"
+              },
+              {
+                "id":3,
+                "title":"نوع پردازنده",
+                "description":"Exynos"
+              },
+              {
+                "id":4,
+                "title":"ظرفیت حافظه رم",
+                "description":"6 گیگابایت"
+              },
+              {
+                "id":5,
+                "title":"شبکه های ارتباطی",
+                "description":"5G"
+              }
+            ]
 
            
 
@@ -558,10 +750,5 @@
           
         ]
       }
-     ]
-
-
-
-    
-    
+     ]   
 }

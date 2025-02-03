@@ -19,20 +19,44 @@ const BanerOne = () => {
 
   return (
     <>
-    {BanerOne?.map((elem) => (
-        <div key={elem.id} className="flex flex-row justify-around mt-6">
-            {elem?.BanerPart_one?.map((item) => (
-           
-                <img
+      {BanerOne?.map((elem) =>
+        elem?.BanerPart_one?.length ? (
+          <div
+            key={elem.id}
+            className="lg:flex lg:justify-around hidden mt-2"
+          >
+            {elem?.BanerPart_one.map((item) => (
+              <img
+                key={item.id}
                 src={item.image}
                 className="w-[45%] mt-2 rounded-md"
                 alt={`Banner ${item.id}`}
-                />
-           
+              />
             ))}
-        </div>
-    ))}
+          </div>
+        ) : null
+      )}
 
+
+
+
+      {BanerOne?.map((elem) =>
+        elem?.BanerPart_one_res?.length ? (
+          <div
+            key={elem.id}
+            className="flex flex-col justify-around lg:hidden mt-2 p-2"
+          >
+            {elem?.BanerPart_one.map((item) => (
+              <img
+                key={item.id}
+                src={item.image}
+                className="w-[100%] mt-2 rounded-md"
+                alt={`Banner ${item.id}`}
+              />
+            ))}
+          </div>
+        ) : null
+      )}
     </>
   );
 };
