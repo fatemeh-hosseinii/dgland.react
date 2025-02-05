@@ -33,13 +33,13 @@ const Header = () => {
                     <div class="left lg:w-[34%] w-[30%]  lg:flex hidden flex-row lg:justify-end  gap-3 items-center">
                         <div class="flex flex-row lg:w-[53%] w-[100%] justify-around ">
                             <Link  class=" bg-[#F6F5F5]  py-3 px-3 rounded-md flex justify-center items-center gap-2">
-                               <Icon className="text-[#a9a9a9]" size={19}  icon={shoppingBasket} />
+                               <Icon className="text-[#f63434]" size={19}  icon={shoppingBasket} />
                             </Link>
                             <Link to={`/enter`} class=" bg-[#F6F5F5]  py-2 px-3 rounded-md flex justify-center items-center gap-2">
-                               <Icon className="text-[#a9a9a9]" size={19}  icon={user} />
+                               <Icon className="text-[#f63434]" size={19}  icon={user} />
                             </Link>
-                            <Link  class=" bg-[#F6F5F5]  py-2 px-3 rounded-md flex justify-center items-center gap-2">
-                               <Icon className="text-[#a9a9a9]" size={19}  icon={heart} />
+                            <Link to={'/user/favorite'} class=" bg-[#F6F5F5]  py-2 px-3 rounded-md flex justify-center items-center gap-2">
+                               <Icon className="text-[#f63434]" size={19}  icon={heart} />
                             </Link>
                         </div>
                     
